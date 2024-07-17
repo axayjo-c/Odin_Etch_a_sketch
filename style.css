@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+input {
+    width: 15px;
+}
+
+button {
+    border: solid #e43131 1px;
+    display: inline;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 2px;
+}
+
+.content {
+
+    width: 660px;
+    height: 660px;
+    border-radius: 10px;
+    padding: auto;
+    border: 3px dotted skyblue;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding : 10px;
+    gap : 5px;
+
+}
+#sketch{
+
+    background-color: blue;
+}
